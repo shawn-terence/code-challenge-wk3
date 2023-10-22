@@ -1,5 +1,15 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
 .navbar{
     background-color: rgb(131, 27, 27);
     color: rgb(168, 164, 164);
     margin-bottom: 10px;
+}
+.movienamecontainer {
+    background-color: black; /* Background color */
+    border: 1px solid #f5deb3; /* Border with solid wheat color */
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px #f5deb3;
 }

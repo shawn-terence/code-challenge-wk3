@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(data => {
                 ticketCalculator(data);
                 movielist(data);
+                // Instroduced function delegation 
                 const listItems = document.querySelectorAll('.list-item');
                 listItems.forEach(listItem => {
                     listItem.addEventListener('click', () => {

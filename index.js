@@ -42,7 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function poster(movie) {
         const posterdiv = document.createElement('div');
         posterdiv.innerHTML = `
-            <div class="card" style="width: 18rem;">
+        <div class ="card"
+            <div class="card2" style="width: 18rem; ">
                 <img src="${movie.poster}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${movie.title}</h5>
@@ -51,7 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class = "unavailable"> </p>
                     <button class="ticketBuy">Buy Ticket</button>
                 </div>
-            </div>`;
+            </div>;
+        </div>`    
         const columndiv = document.querySelector('#columndiv');
         columndiv.innerHTML = ''; // Clear previous content
         columndiv.appendChild(posterdiv);

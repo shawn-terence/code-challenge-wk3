@@ -1,5 +1,5 @@
-const dataLink = `http://localhost:3000/films`;
-
+const dataLink = `http://localhost:3000/films`;//gave the json server a variable name
+// put the code in an event listener to prevent errors
 document.addEventListener('DOMContentLoaded', () => {
     movieFetch();
 
